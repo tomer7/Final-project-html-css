@@ -1,0 +1,43 @@
+
+
+@media (max-width:450px) {
+    .header img {
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+.header {
+    background: white url(images/Header-bar.png) no-repeat center center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: calc(100vh - 555px);
+}
+
+
+
+
+
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8e530;
+}
+
+
+
