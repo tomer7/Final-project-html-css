@@ -1,3 +1,7 @@
+body {
+    background: #f8e530;
+}
+
 @media (max-width:450px) {
     .header img {
         max-width: 150px;
@@ -45,4 +49,20 @@
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #f8e530;
+}
+
+.mainphoto {
+    background: url(images/mainphoto.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 72px);
+
+}
+
+@media (min-width: 2400px) {
+    .mainphoto {
+        background: url(images/mainphotofor4k.png) no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: calc(100vh - 72px);
 }
