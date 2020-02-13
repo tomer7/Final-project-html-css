@@ -19,10 +19,21 @@ body {
     background: white url(images/Header-bar.png) no-repeat center center;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     padding: 10px;
     font-size: 13px;
     padding-right: 4%;
     padding-left: 4%;
+    text-transform: uppercase;
+}
+
+@media (min-width: 2400px) {
+    .mainphoto {
+        background: url(images/mainphotofor4k.png) no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: calc(100vh - 72px);
+    }
 }
 
 .navbar-toggler {
@@ -56,13 +67,23 @@ body {
     background-size: cover;
     width: 100%;
     height: calc(100vh - 72px);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 2400px) {
-    .mainphoto {
-        background: url(images/mainphotofor4k.png) no-repeat center center;
-        background-size: cover;
-        width: 100%;
-        height: calc(100vh - 72px);
+.firstp {
+    font-weight: 900;
+    font-size: 2vh;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    line-height: 0.780;
+    text-align: center;
+    -moz-transform: matrix(6.76328787155202, 0, 0, 6.76328787155202, 0, 0);
+    -webkit-transform: matrix(6.76328787155202, 0, 0, 6.76328787155202, 0, 0);
+    -ms-transform: matrix(6.76328787155202, 0, 0, 6.76328787155202, 0, 0);
+    position: absolute;
+    padding-left: 4.4%;
+    padding-bottom: 1.5%;
 }
