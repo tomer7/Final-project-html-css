@@ -212,7 +212,22 @@ body {
 padding-bottom: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {         /* מה שכתוב כאן זה מה שיקרה בין 992 - 1200  */
+    .helpToRow {
+        padding-top: 1px;
+    }
+    .thephotoservice {
+        width: 200px;
+        height: 200px;
+    }
+
+    .thephotoservice img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 991px) {     /* מה שכתוב כאן זה מה שיקרה עד 991  */
     .helpToRow {
         padding-top: 1px;
     }
@@ -226,3 +241,4 @@ padding-bottom: 40px;
         height: auto;
     }
 }
+
