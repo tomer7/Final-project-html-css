@@ -73,7 +73,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.firstp {   /* מה שכתוב כאן זה מה שיקרה מ-1,101 ומעלה  */
+.firstp {
+    /* מה שכתוב כאן זה מה שיקרה מ-1,101 ומעלה  */
     font-weight: 900;
     font-size: 2vh;
     color: rgb(8, 8, 8);
@@ -87,42 +88,60 @@ body {
     padding-left: 4.4%;
     padding-bottom: 1.5%;
 }
-@media (max-width: 1100px) { /* מה שכתוב כאן זה מה שיקרה בין 901 - 1,100  */
+
+@media (max-width: 1100px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 1,001 - 1,100  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 15px;
         padding-bottom: 30px;
     }
 }
-@media (max-width: 1000px) { /* מה שכתוב כאן זה מה שיקרה בין 901 - 1,000  */
+
+@media (max-width: 1000px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 901 - 1,000  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 14px;
         padding-bottom: 30px;
     }
 }
-@media (max-width: 900px) { /* מה שכתוב כאן זה מה שיקרה בין 801 - 900  */
+
+@media (max-width: 900px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 801 - 900  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 14px;
         padding-bottom: 30px;
     }
 }
-@media (max-width: 800px) { /* מה שכתוב כאן זה מה שיקרה בין 701 - 800  */
+
+@media (max-width: 800px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 701 - 800  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 12px;
         padding-bottom: 30px;
     }
 }
-@media (max-width: 700px) { /* מה שכתוב כאן זה מה שיקרה בין 601 - 700  */
+
+@media (max-width: 700px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 601 - 700  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 10px;
         padding-bottom: 30px;
     }
 }
-@media (max-width: 600px) { /* מה שכתוב כאן זה מה שיקרה בין 501 - 600  */
+
+@media (max-width: 600px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 501 - 600  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 9px;
@@ -130,7 +149,10 @@ body {
         left: 200px;
     }
 }
-@media (max-width: 500px) { /* מה שכתוב כאן זה מה שיקרה בין 401 - 500  */
+
+@media (max-width: 500px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 401 - 500  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 8px;
@@ -138,7 +160,10 @@ body {
         left: 160px;
     }
 }
-@media (max-width: 400px) { /* מה שכתוב כאן זה מה שיקרה עד 400  */
+
+@media (max-width: 400px) {
+
+    /* מה שכתוב כאן זה מה שיקרה עד 400  */
     .firstp {
         color: rgb(8, 8, 8);
         font-size: 6px;
@@ -148,6 +173,56 @@ body {
     }
 }
 
+.services {
+    background: url(images/background-services.png) repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.helpToRow {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+}
 
+.helpToRow h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.helpToRow p {
+    color: rgba(255, 255, 255, 0.502);
+    font-weight: 400;
+    text-align: center;
+}
+
+.thephotoservice img {
+padding-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+    .helpToRow {
+        padding-top: 1px;
+    }
+    .thephotoservice {
+        width: 140px;
+        height: 140px;
+    }
+
+    .thephotoservice img {
+        width: 100%;
+        height: auto;
+    }
+}
