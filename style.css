@@ -209,13 +209,16 @@ body {
 }
 
 .thephotoservice img {
-padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
-@media (max-width: 1200px) {         /* מה שכתוב כאן זה מה שיקרה בין 992 - 1200  */
+@media (max-width: 1200px) {
+
+    /* מה שכתוב כאן זה מה שיקרה בין 992 - 1200  */
     .helpToRow {
         padding-top: 1px;
     }
+
     .thephotoservice {
         width: 200px;
         height: 200px;
@@ -227,10 +230,13 @@ padding-bottom: 40px;
     }
 }
 
-@media (max-width: 991px) {     /* מה שכתוב כאן זה מה שיקרה עד 991  */
+@media (max-width: 991px) {
+
+    /* מה שכתוב כאן זה מה שיקרה עד 991  */
     .helpToRow {
         padding-top: 1px;
     }
+
     .thephotoservice {
         width: 140px;
         height: 140px;
@@ -242,3 +248,27 @@ padding-bottom: 40px;
     }
 }
 
+.ourcreativework {
+    background: #f8e530 no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.container h1 {
+    padding-top: 5%;
+    font-size: 68px;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container p {
+    padding-top: 1%;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+  
