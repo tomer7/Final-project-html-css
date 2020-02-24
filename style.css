@@ -277,6 +277,7 @@ body {
     width: 85%;
     height: auto;
 }
+
 @media (max-width: 1300px) {
 
     /* מה שכתוב כאן זה מה שיקרה עד 1,300  */
@@ -301,7 +302,7 @@ body {
     padding: 2%;
 }
 
-.newsletter .container .subscribetoournewsletter {
+.subscribetoournewsletter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,13 +311,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.newsletter .container .subscribetoournewsletter .Subscribe h1 {
+.Subscribe h1 {
     color: white;
     font-size: 48px;
     font-weight: 900;
 }
 
-.newsletter .container .subscribetoournewsletter .toournewsletter h1 {
+.toournewsletter h1 {
     color: #f8e530;
     font-size: 48px;
     font-weight: 900;
@@ -325,10 +326,12 @@ body {
 .container .email-input {
     width: 60%;
 }
+
 .container .submit-input {
     width: 20%;
 }
-.email-input{
+
+.email-input {
     background: transparent;
     border: 1px solid white;
     color: white;
@@ -340,9 +343,9 @@ body {
     margin-left: 9%;
     margin-right: 1%;
     margin-top: 2%;
-  }
+}
 
-  .submit-input{
+.submit-input {
     background-color: #f8e530;
     border: none;
     color: black;
@@ -353,51 +356,116 @@ body {
     width: 30%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-  }
-  @media (max-width: 1100px) {
+}
+
+@media (max-width: 1100px) {
 
     /* מה שכתוב כאן זה מה שיקרה בין 1,001 - 1,100  */
+    .newsletter {
+        height: 30vh;
+    }
 
+    .Subscribe h1 {
+        font-size: 40px;
+    }
+
+    .toournewsletter h1 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 1000px) {
 
     /* מה שכתוב כאן זה מה שיקרה בין 901 - 1,000  */
+    .Subscribe h1 {
+        font-size: 36px;
+    }
 
+    .toournewsletter h1 {
+        font-size: 36px;
+    }
 }
 
 @media (max-width: 900px) {
 
     /* מה שכתוב כאן זה מה שיקרה בין 801 - 900  */
+    .Subscribe h1 {
+        font-size: 34px;
+    }
 
+    .toournewsletter h1 {
+        font-size: 34px;
+    }
 }
 
 @media (max-width: 800px) {
 
     /* מה שכתוב כאן זה מה שיקרה בין 701 - 800  */
+    .newsletter {
+        height: 20vh;
+    }
 
+    .Subscribe h1 {
+        font-size: 26px;
+    }
+
+    .toournewsletter h1 {
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 700px) {
 
     /* מה שכתוב כאן זה מה שיקרה בין 601 - 700  */
+    .Subscribe h1 {
+        font-size: 26px;
+    }
 
+    .toournewsletter h1 {
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 600px) {
 
     /* מה שכתוב כאן זה מה שיקרה בין 501 - 600  */
+    .Subscribe h1 {
+        font-size: 22px;
+    }
 
+    .toournewsletter h1 {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 500px) {
 
     /* מה שכתוב כאן זה מה שיקרה בין 401 - 500  */
+    .Subscribe h1 {
+        font-size: 18px;
+    }
 
+    .toournewsletter h1 {
+        font-size: 18px;
+    }
+
+    .submit-input {
+        font-size: 10px;
+    }
+
+    .email-input {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 400px) {
 
     /* מה שכתוב כאן זה מה שיקרה עד 400  */
+    .Subscribe h1 {
+        font-size: 14px;
+    }
 
+    .toournewsletter h1 {
+        font-size: 14px;
+    }
 }
