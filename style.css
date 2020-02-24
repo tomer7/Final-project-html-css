@@ -469,3 +469,20 @@ body {
         font-size: 14px;
     }
 }
+.contactus .container h1 {
+    padding-top: 2%;
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2%;
+}
+.contactus .container {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
