@@ -469,6 +469,7 @@ body {
         font-size: 14px;
     }
 }
+
 .contactus .container h1 {
     padding-top: 2%;
     font-size: 48px;
@@ -479,10 +480,52 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 2%;
 }
+
 .contactus .container {
     font-size: 18px;
     color: black;
     font-weight: 600;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+}
+
+.text-input {
+    background: black;
+    border: 1px solid black;
+    color: rgba(255, 255, 255, 0.502);
+    border-radius: 50px;
+    padding: 12px 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 2%;
+}
+
+.message-input {
+    background: black;
+    border: 1px solid black;
+    color: rgba(255, 255, 255, 0.502);
+    border-radius: 25px;
+   /* padding: 102px 220px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 95%;
+    height: 200px;
+    padding: 1px 35px;
+}
+.parallelogram {
+    text-decoration: none;
+	height: 50px;
+	transform: skew(30deg);
+    background: black;
+    margin: 3%;
+    color: white;
+    border-radius: 10px;
+    margin-left: 37%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding: 1%;
 }
